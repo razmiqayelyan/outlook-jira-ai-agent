@@ -1,0 +1,27 @@
+# --- Security (CRITICAL) ---
+.env
+.env.local
+.env.*
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environment ---
+venv/
+env/
+.venv/
+
+# --- IDE Settings ---
+.vscode/
+.idea/
+
+# --- OS Files (Mac) ---
+.DS_Store
+.DS_Store?
+
+# --- Application Data ---
+# We ignore the local database of processed emails so it doesn't 
+# overwrite the file if you work on a different computer.
+storage/processed_emails.json

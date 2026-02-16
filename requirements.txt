@@ -1,0 +1,7 @@
+openai>=1.0.0
+requests
+python-dotenv
+markdownify
+beautifulsoup4
+pydantic
+msal
